@@ -1,0 +1,11 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables */
+/* https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care */
+
+:root {
+  --light-grey: #D8DBE2;
+  --darker-grey: #4F5D73;
+  --red: #DD6A58;
+  --navy: #2B303A;
+  --yellow: #F4D35E;
+  --white: #FFF;
+}

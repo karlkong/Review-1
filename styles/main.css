@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--light-grey);
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    min-height: 100%;
+}
+
+.panel-1, .panel-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 50%;
+}
+
+.panel-1 {
+    background-color: var(--red);
+}
+
+.panel-2 {
+    background-color: var(--navy);
+}
+
+nav ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 8px;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    padding: 8px 16px;
+    color: var(--white);
+    background-color: var(--darker-grey);
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+nav li:hover a {
+    background-color: var(--white);
+    color: var(--darker-grey);
+}
+
+h1, h2 {
+    font-weight: 300;
+    color: var(--white);
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#rocket.svg {
+    width: 480px;
+}
